@@ -150,7 +150,7 @@ class AntBulletEnv(WalkerBaseBulletEnv):
 
 class ModifiedAntBulletEnv(WalkerBaseBulletEnv):
 	def __init__(self, render=False, i=0):
-		self.robot = Ant(i)
+		self.robot = ModifiedAnt(i)
 		WalkerBaseBulletEnv.__init__(self, self.robot, render)
 
 class HumanoidBulletEnv(WalkerBaseBulletEnv):
