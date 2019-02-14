@@ -2,7 +2,7 @@ from .scene_stadium import SinglePlayerStadiumScene
 from .env_bases import MJCFBaseBulletEnv
 import numpy as np
 import pybullet
-from robot_locomotors import Hopper, Walker2D, HalfCheetah, Ant, Humanoid, HumanoidFlagrun, HumanoidFlagrunHarder
+from robot_locomotors import Hopper, Walker2D, HalfCheetah, Ant, ModifiedAnt, Humanoid, HumanoidFlagrun, HumanoidFlagrunHarder
 
 
 class WalkerBaseBulletEnv(MJCFBaseBulletEnv):
@@ -120,9 +120,10 @@ class WalkerBaseBulletEnv(MJCFBaseBulletEnv):
 		return state, sum(self.rewards), bool(done), {}
 
 	def camera_adjust(self):
-		x, y, z = self.body_xyz
+		x, y, z = self.robot.body_xyz
 		self.camera_x = 0.98*self.camera_x + (1-0.98)*x
-		self.camera.move_and_look_at(self.camera_x, y-2.0, 1.4, x, y, 1.0)
+		#self.camera.move_and_look_at(self.camera_x, y-2.0, 1.4, x, y, 1.0)
+                self._p.resetDebugVisualizeCamera(10, 10, -20, [x,y,z])
 
 class HopperBulletEnv(WalkerBaseBulletEnv):
 	def __init__(self, render=False):
@@ -145,6 +146,11 @@ class HalfCheetahBulletEnv(WalkerBaseBulletEnv):
 class AntBulletEnv(WalkerBaseBulletEnv):
 	def __init__(self, render=False):
 		self.robot = Ant()
+		WalkerBaseBulletEnv.__init__(self, self.robot, render)
+
+class ModifiedAntBulletEnv(WalkerBaseBulletEnv):
+	def __init__(self, render=False, i=0):
+		self.robot = Ant(i)
 		WalkerBaseBulletEnv.__init__(self, self.robot, render)
 
 class HumanoidBulletEnv(WalkerBaseBulletEnv):

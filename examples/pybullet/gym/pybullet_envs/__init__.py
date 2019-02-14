@@ -188,6 +188,14 @@ register(
 	reward_threshold=2500.0
 	)
 
+for i in range(1000):
+    register(
+            id='ModifiedAntBulletEnv-v{}'.format(i),
+            entry_point='pybullet_envs.gym_locomotion_envs:ModifiedAntBulletEnv',
+            max_episode_steps=1000,
+            reward_threshold=2500.0
+            )
+
 register(
 	id='HopperBulletEnv-v0',
 	entry_point='pybullet_envs.gym_locomotion_envs:HopperBulletEnv',
