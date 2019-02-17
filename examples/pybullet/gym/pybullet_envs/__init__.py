@@ -193,7 +193,8 @@ for i in range(1000):
             id='ModifiedAntBulletEnv-v{}'.format(i),
             entry_point='pybullet_envs.gym_locomotion_envs:ModifiedAntBulletEnv',
             max_episode_steps=1000,
-            reward_threshold=2500.0
+            reward_threshold=2500.0,
+            kwargs={"i" : i}
             )
 
 register(
