@@ -144,6 +144,14 @@ class ModifiedAnt(WalkerBase):
 	def alive_bonus(self, z, pitch):
 		return +1 if z > 0.26 else -1  # 0.25 is central sphere rad, die if it scrapes the ground
 
+class JointDisabledAnt(WalkerBase):
+	foot_list = ['front_left_foot', 'front_right_foot', 'left_back_foot', 'right_back_foot']
+
+	def __init__(self, i):
+		WalkerBase.__init__(self, "joint_disabled_ants/joint_disabled_ant_{}.xml".format(i), "torso", action_dim=8, obs_dim=28, power=2.5)
+
+	def alive_bonus(self, z, pitch):
+
 class Humanoid(WalkerBase):
 	self_collision = True
 	foot_list = ["right_foot", "left_foot"]  # "left_hand", "right_hand"

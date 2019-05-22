@@ -2,7 +2,7 @@ from .scene_stadium import SinglePlayerStadiumScene
 from .env_bases import MJCFBaseBulletEnv
 import numpy as np
 import pybullet
-from robot_locomotors import Hopper, Walker2D, HalfCheetah, Ant, ModifiedAnt, Humanoid, HumanoidFlagrun, HumanoidFlagrunHarder
+from robot_locomotors import Hopper, Walker2D, HalfCheetah, Ant, ModifiedAnt, JointDisabledAnt, Humanoid, HumanoidFlagrun, HumanoidFlagrunHarder
 
 
 class WalkerBaseBulletEnv(MJCFBaseBulletEnv):
@@ -151,6 +151,11 @@ class AntBulletEnv(WalkerBaseBulletEnv):
 class ModifiedAntBulletEnv(WalkerBaseBulletEnv):
 	def __init__(self, render=False, i=0):
 		self.robot = ModifiedAnt(i)
+		WalkerBaseBulletEnv.__init__(self, self.robot, render)
+
+class JointDisabledAntBulletEnv(WalkerBaseBulletEnv):
+	def __init__(self, render=False, i=0):
+		self.robot = JointDisabledAnt(i)
 		WalkerBaseBulletEnv.__init__(self, self.robot, render)
 
 class HumanoidBulletEnv(WalkerBaseBulletEnv):

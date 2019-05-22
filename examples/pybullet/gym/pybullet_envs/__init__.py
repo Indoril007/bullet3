@@ -197,6 +197,15 @@ for i in range(1000):
             kwargs={"i" : i}
             )
 
+for i in range(1,9):
+    register(
+            id='JointDisabledAntBulletEnv-v{}'.format(i),
+            entry_point='pybullet_envs.gym_locomotion_envs:JointDisabledAntBulletEnv',
+            max_episode_steps=1000,
+            reward_threshold=2500.0,
+            kwargs={"i" : i}
+            )
+
 register(
 	id='HopperBulletEnv-v0',
 	entry_point='pybullet_envs.gym_locomotion_envs:HopperBulletEnv',
