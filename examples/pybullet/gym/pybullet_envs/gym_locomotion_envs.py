@@ -123,7 +123,7 @@ class WalkerBaseBulletEnv(MJCFBaseBulletEnv):
 		x, y, z = self.robot.body_xyz
 		self.camera_x = 0.98*self.camera_x + (1-0.98)*x
 		#self.camera.move_and_look_at(self.camera_x, y-2.0, 1.4, x, y, 1.0)
-		self._p.resetDebugVisualizeCamera(10, 10, -20, [x,y,z])
+		self._p.resetDebugVisualizerCamera(10, 10, -20, [x,y,z])
 
 class HopperBulletEnv(WalkerBaseBulletEnv):
 	def __init__(self, render=False):

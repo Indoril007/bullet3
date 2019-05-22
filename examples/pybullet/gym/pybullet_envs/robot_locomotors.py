@@ -151,6 +151,7 @@ class JointDisabledAnt(WalkerBase):
 		WalkerBase.__init__(self, "joint_disabled_ants/joint_disabled_ant_{}.xml".format(i), "torso", action_dim=8, obs_dim=28, power=2.5)
 
 	def alive_bonus(self, z, pitch):
+		return +1 if z > 0.26 else -1  # 0.25 is central sphere rad, die if it scrapes the ground
 
 class Humanoid(WalkerBase):
 	self_collision = True
