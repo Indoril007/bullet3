@@ -51,7 +51,7 @@
           <joint axis="0 0 1" name="hip_4" pos="0.0 0.0 0.0" range="-40 40" type="hinge"/>
           <geom fromto="0.0 0.0 0.0 0.2 -0.2 0.0" name="rightback_leg_geom" size="0.08" type="capsule" rgba=".8 .5 .3 1"/>
           <body pos="0.2 -0.2 0" name="right_back_foot">
-            <joint axis="1 1 0" name="ankle_4" pos="0.0 0.0 0.0" range="30 100" type="hinge"/>
+            <joint axis="1 1 0" name="ankle_4" pos="0.0 0.0 0.0" range="29.9 30" type="hinge"/>
             <geom fromto="0.0 0.0 0.0 0.4 -0.4 0.0" name="fourth_ankle_geom" size="0.08" type="capsule" rgba=".8 .5 .3 1"/>
           </body>
         </body>
