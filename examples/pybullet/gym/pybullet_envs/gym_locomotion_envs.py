@@ -117,7 +117,15 @@ class WalkerBaseBulletEnv(MJCFBaseBulletEnv):
 		self.HUD(state, a, done)
 		self.reward += sum(self.rewards)
 
-		return state, sum(self.rewards), bool(done), {}
+		info = {
+			"alive": self._alive,
+			"progress": progress,
+			"electricity_cost": electricity_cost,
+			"joints_at_limit_cost": joints_at_limit_cost,
+			"feet_collision_cost": feet_collision_cost,
+		}
+
+		return state, sum(self.rewards), bool(done), info
 
 	def camera_adjust(self):
 		x, y, z = self.robot.body_xyz
