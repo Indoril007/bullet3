@@ -209,7 +209,7 @@ for i in range(1,9):
 for i in range(1,9):
     register(
             id='ModifiedHumanoidBulletEnv-v{}'.format(i),
-            entry_point='pybullet_envs.gym_locomotion_envs:JointDisabledAntBulletEnv',
+            entry_point='pybullet_envs.gym_locomotion_envs:ModifiedHumanoidBulletEnv',
             max_episode_steps=1000,
             kwargs={"i" : i}
             )
