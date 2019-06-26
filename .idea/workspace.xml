@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="3f1905b7-0a1a-4e16-8b15-64fe2f242783" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/pybullet/gym/pybullet_envs/gym_locomotion_envs.py" beforeDir="false" afterPath="$PROJECT_DIR$/examples/pybullet/gym/pybullet_envs/gym_locomotion_envs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/pybullet/gym/pybullet_envs/robot_locomotors.py" beforeDir="false" afterPath="$PROJECT_DIR$/examples/pybullet/gym/pybullet_envs/robot_locomotors.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,20 +14,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/examples/pybullet/gym/pybullet_envs/gym_locomotion_envs.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="4" column="123" selection-start-line="4" selection-start-column="123" selection-end-line="4" selection-end-column="123" />
+              <caret line="4" column="141" selection-start-line="4" selection-start-column="141" selection-end-line="4" selection-end-column="141" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/examples/pybullet/gym/pybullet_envs/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="213" selection-start-line="213" selection-end-line="213" />
+            <state relative-caret-position="323">
+              <caret line="214" column="12" selection-start-line="214" selection-start-column="12" selection-end-line="214" selection-end-column="12" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -36,8 +38,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/examples/pybullet/gym/pybullet_envs/robot_locomotors.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="213" column="25" selection-start-line="213" selection-start-column="25" selection-end-line="213" selection-end-column="25" />
+            <state relative-caret-position="525">
+              <caret line="292" column="42" selection-start-line="292" selection-start-column="42" selection-end-line="292" selection-end-column="42" />
               <folding>
                 <element signature="e#0#69#0" expanded="true" />
               </folding>
@@ -54,8 +56,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/examples/pybullet/gym/pybullet_envs/__init__.py" />
-        <option value="$PROJECT_DIR$/examples/pybullet/gym/pybullet_envs/gym_locomotion_envs.py" />
         <option value="$PROJECT_DIR$/examples/pybullet/gym/pybullet_envs/robot_locomotors.py" />
+        <option value="$PROJECT_DIR$/examples/pybullet/gym/pybullet_envs/gym_locomotion_envs.py" />
       </list>
     </option>
   </component>
@@ -69,17 +71,18 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="86" />
-    <option name="y" value="24" />
-    <option name="width" value="1855" />
-    <option name="height" value="1148" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="57" />
+    <option name="y" value="-4" />
+    <option name="width" value="1863" />
+    <option name="height" value="1204" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -117,7 +120,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -158,16 +160,19 @@
       <workItem from="1561466017917" duration="271000" />
       <workItem from="1561470605364" duration="6000" />
       <workItem from="1561475243385" duration="927000" />
+      <workItem from="1561476957213" duration="1015000" />
+      <workItem from="1561516699995" duration="1025000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4541000" />
+    <option name="totallyTimeSpent" value="6581000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="299" y="158" width="1391" height="881" extended-state="0" />
+    <frame x="57" y="-2404" width="1863" height="1204" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.35241637" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.22894882" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -181,7 +186,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.44344473" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.1567029" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -195,30 +200,30 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/examples/pybullet/gym/pybullet_envs/gym_locomotion_envs.py">
+    <entry file="file://$PROJECT_DIR$/examples/pybullet/gym/pybullet_envs/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="123" selection-start-line="4" selection-start-column="123" selection-end-line="4" selection-end-column="123" />
+        <state relative-caret-position="323">
+          <caret line="214" column="12" selection-start-line="214" selection-start-column="12" selection-end-line="214" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/examples/pybullet/gym/pybullet_envs/robot_locomotors.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="213" column="25" selection-start-line="213" selection-start-column="25" selection-end-line="213" selection-end-column="25" />
+        <state relative-caret-position="525">
+          <caret line="292" column="42" selection-start-line="292" selection-start-column="42" selection-end-line="292" selection-end-column="42" />
           <folding>
             <element signature="e#0#69#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/pybullet/gym/pybullet_envs/__init__.py">
+    <entry file="file://$PROJECT_DIR$/examples/pybullet/gym/pybullet_envs/gym_locomotion_envs.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="213" selection-start-line="213" selection-end-line="213" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="68">
+          <caret line="4" column="141" selection-start-line="4" selection-start-column="141" selection-end-line="4" selection-end-column="141" />
         </state>
       </provider>
     </entry>

@@ -2,7 +2,7 @@ from .scene_stadium import SinglePlayerStadiumScene
 from .env_bases import MJCFBaseBulletEnv
 import numpy as np
 import pybullet
-from robot_locomotors import Hopper, Walker2D, HalfCheetah, Ant, ModifiedAnt, JointDisabledAnt, Humanoid, ModifiedHumanoid, HumanoidFlagrun, HumanoidFlagrunHarder
+from robot_locomotors import Hopper, Walker2D, HalfCheetah, Ant, ModifiedAnt, JointDisabledAnt, Humanoid, ModifiedHumanoid, DisabledHumanoid, HumanoidFlagrun, HumanoidFlagrunHarder
 
 
 class WalkerBaseBulletEnv(MJCFBaseBulletEnv):
@@ -176,6 +176,13 @@ class HumanoidBulletEnv(WalkerBaseBulletEnv):
 class ModifiedHumanoidBulletEnv(WalkerBaseBulletEnv):
 	def __init__(self, render=False, i=0):
 		self.robot = ModifiedHumanoid(i)
+		WalkerBaseBulletEnv.__init__(self, self.robot, render)
+		self.electricity_cost  = 4.25*WalkerBaseBulletEnv.electricity_cost
+		self.stall_torque_cost = 4.25*WalkerBaseBulletEnv.stall_torque_cost
+
+class DisabledHumanoidBulletEnv(WalkerBaseBulletEnv):
+	def __init__(self, render=False, i=0):
+		self.robot = DisabledHumanoid(i)
 		WalkerBaseBulletEnv.__init__(self, self.robot, render)
 		self.electricity_cost  = 4.25*WalkerBaseBulletEnv.electricity_cost
 		self.stall_torque_cost = 4.25*WalkerBaseBulletEnv.stall_torque_cost

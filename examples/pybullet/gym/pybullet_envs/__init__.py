@@ -214,6 +214,14 @@ for i in range(1,9):
             kwargs={"i" : i}
             )
 
+for i in range(1,9):
+    register(
+            id='DisabledHumanoidBulletEnv-v{}'.format(i),
+            entry_point='pybullet_envs.gym_locomotion_envs:DisabledHumanoidBulletEnv',
+            max_episode_steps=1000,
+            kwargs={"i": i}
+            )
+
 register(
 	id='HopperBulletEnv-v0',
 	entry_point='pybullet_envs.gym_locomotion_envs:HopperBulletEnv',
