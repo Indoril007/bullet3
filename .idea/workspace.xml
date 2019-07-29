@@ -17,8 +17,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/examples/pybullet/gym/pybullet_envs/gym_locomotion_envs.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="141" selection-start-line="4" selection-start-column="141" selection-end-line="4" selection-end-column="141" />
+            <state relative-caret-position="578">
+              <caret line="151" column="20" selection-start-line="151" selection-start-column="20" selection-end-line="151" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#51#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -26,8 +29,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/examples/pybullet/gym/pybullet_envs/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="214" column="12" selection-start-line="214" selection-start-column="12" selection-end-line="214" selection-end-column="12" />
+            <state relative-caret-position="453">
+              <caret line="234" column="25" selection-start-line="234" selection-start-column="25" selection-end-line="234" selection-end-column="25" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -38,8 +41,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/examples/pybullet/gym/pybullet_envs/robot_locomotors.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="292" column="42" selection-start-line="292" selection-start-column="42" selection-end-line="292" selection-end-column="42" />
+            <state relative-caret-position="187">
+              <caret line="130" column="23" selection-start-line="130" selection-start-column="23" selection-end-line="130" selection-end-column="23" />
               <folding>
                 <element signature="e#0#69#0" expanded="true" />
               </folding>
@@ -82,7 +85,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -120,6 +122,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -161,18 +164,33 @@
       <workItem from="1561470605364" duration="6000" />
       <workItem from="1561475243385" duration="927000" />
       <workItem from="1561476957213" duration="1015000" />
-      <workItem from="1561516699995" duration="1025000" />
+      <workItem from="1561516699995" duration="2227000" />
+      <workItem from="1561530142356" duration="627000" />
+      <workItem from="1561556618150" duration="655000" />
+      <workItem from="1561583261486" duration="1202000" />
+      <workItem from="1561626136278" duration="599000" />
+      <workItem from="1561642328076" duration="615000" />
+      <workItem from="1561690149604" duration="609000" />
+      <workItem from="1561942179022" duration="759000" />
+      <workItem from="1561961188915" duration="600000" />
+      <workItem from="1562118900787" duration="32000" />
+      <workItem from="1562218592225" duration="717000" />
+      <workItem from="1562223087981" duration="659000" />
+      <workItem from="1562289796774" duration="1226000" />
+      <workItem from="1562302623704" duration="697000" />
+      <workItem from="1562380831236" duration="11000" />
+      <workItem from="1564386162542" duration="272000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6581000" />
+    <option name="totallyTimeSpent" value="17063000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="57" y="-2404" width="1863" height="1204" extended-state="6" />
+    <frame x="57" y="-4" width="1863" height="1204" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.22894882" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22894882" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -186,7 +204,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.1567029" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.22826087" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -202,8 +220,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/examples/pybullet/gym/pybullet_envs/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="214" column="12" selection-start-line="214" selection-start-column="12" selection-end-line="214" selection-end-column="12" />
+        <state relative-caret-position="453">
+          <caret line="234" column="25" selection-start-line="234" selection-start-column="25" selection-end-line="234" selection-end-column="25" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
@@ -212,8 +230,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/examples/pybullet/gym/pybullet_envs/robot_locomotors.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="292" column="42" selection-start-line="292" selection-start-column="42" selection-end-line="292" selection-end-column="42" />
+        <state relative-caret-position="187">
+          <caret line="130" column="23" selection-start-line="130" selection-start-column="23" selection-end-line="130" selection-end-column="23" />
           <folding>
             <element signature="e#0#69#0" expanded="true" />
           </folding>
@@ -222,8 +240,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/examples/pybullet/gym/pybullet_envs/gym_locomotion_envs.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="141" selection-start-line="4" selection-start-column="141" selection-end-line="4" selection-end-column="141" />
+        <state relative-caret-position="578">
+          <caret line="151" column="20" selection-start-line="151" selection-start-column="20" selection-end-line="151" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
